@@ -1,0 +1,208 @@
+[
+ {
+  "nombre": "Agustín",
+  "apellido": "Godoy",
+  "email": "agustingod@gmail.com",
+  "contraseña": "$2a$10$AzgXRq04KbX/Njft3mx7X.XZ.GPuC/YYd4.DGO5JNnlZQlTBM9Ln6",
+  "fecha": "1998-01-06",
+  "terminos": "on",
+  "id": 1
+ },
+ {
+  "nombre": "Adela",
+  "apellido": "Cervantes Ortiz",
+  "email": "adela@gmail.com",
+  "contraseña": "$2a$10$.eOCDczazEAm.KTaMNZeF.hdaxkhynthkBOgLjixwQdNylrXsR4Ju",
+  "fecha": "2000-01-07",
+  "promociones": "on",
+  "terminos": "on",
+  "isAdmin": false,
+  "id": 2
+ },
+ {
+  "nombre": "Primer",
+  "apellido": "Administrador",
+  "email": "admin@zero.com",
+  "contraseña": "$2a$10$6MJxZy4c1mxKd9ePgCDHj.xzdyLLBm6sYqAEny3JlaG6rjsyJ9ssy",
+  "fecha": "2022-01-05",
+  "terminos": "on",
+  "isAdmin": true,
+  "id": 3
+ },
+ {
+  "nombre": "Limberth",
+  "apellido": "Entrada",
+  "email": "limberth@gmail.com",
+  "contraseña": "$2a$10$zRaJviqyMpmlF0oyqbBlgOhnpLbHKonPb56ycObCgZJpqckSn17qq",
+  "fecha": "2000-03-18",
+  "isAdmin": false,
+  "id": 4
+ },
+ {
+  "nombre": "Juan Ignacio",
+  "apellido": "Sosa",
+  "email": "juan@gmail.com",
+  "contraseña": "$2a$10$tMgYgpUz3AenuEh6WiqJ7Ox228w1U2OdS.3swRsVzL45TC0W5yJea",
+  "fecha": "1997-03-26",
+  "isAdmin": false,
+  "id": 5
+ },
+ {
+  "nombre": "Julian",
+  "apellido": "Torres",
+  "email": "julian@gmail.com",
+  "contraseña": "$2a$10$dyhjzkasJOXewJS08aYlouDhQJ6poDYgQa1PeWJ.5ZZ3ezZ7B82O2",
+  "fecha": "2022-01-12",
+  "isAdmin": false,
+  "id": 6
+ },
+ {
+  "nombre": "Paulina",
+  "apellido": "Cabrera",
+  "email": "paulina@gmail.com",
+  "contraseña": "$2a$10$CSPBlfJkwAUfDiM/P.2D1.YUQd5ZWToiSo6I9f9lECaV6v2bQh.ii",
+  "fecha": "2000-11-09",
+  "promociones": "on",
+  "isAdmin": false,
+  "id": 7
+ },
+ {
+  "nombre": "dgdfg",
+  "apellido": "Cfggdg",
+  "email": "abc@zero.com",
+  "contraseña": "$2a$10$bbcQ2jpEMHs.BumXaeMh2eVFD9JOp0iyNO8nUZRUEz14jVmqmBx8G",
+  "fecha": "2000-01-07",
+  "avatar": "1643841677063_img_.jpg",
+  "isAdmin": true,
+  "id": 8
+ },
+ {
+  "nombre": "Agustín",
+  "apellido": "Godoy",
+  "email": "agustingod@zero.com",
+  "contraseña": "$2a$10$a.FvzwM7XWuhIUi.1gEFNOHXgdD0940sUATU1rKhiSceFvSk0uEwa",
+  "fecha": "1998-01-06",
+  "isAdmin": true,
+  "id": 9
+ },
+ {
+  "nombre": "Alexia",
+  "apellido": "Coppola",
+  "email": "alexia@zero.com",
+  "contraseña": "$2a$10$yxtqUI.cDIAIBRMabDxHkuqizwnVrAEIzJGLfwMlLWn2xlOYgOj/u",
+  "fecha": "2001-05-05",
+  "isAdmin": true,
+  "id": 10
+ },
+ {
+  "nombre": "Benjamín ",
+  "apellido": "Acuña",
+  "email": "benjamin@zero.com",
+  "contraseña": "$2a$10$VC.NrtGN.0Qw8SNAHORQ.u5eY27NRnfTV1TbmyqV5Ud75RPPGgEbK",
+  "fecha": "2001-01-26",
+  "isAdmin": true,
+  "id": 11
+ },
+ {
+  "nombre": "Paulina",
+  "apellido": "Cabrera",
+  "email": "paulina@zero.com",
+  "contraseña": "$2a$10$qxvocUn8TVwa5Vb/.GK2nuuqTfLTLc7Pd.eE/XhhbdDfGM/8aiuye",
+  "fecha": "2002-11-09",
+  "promociones": "on",
+  "isAdmin": true,
+  "id": 12
+ },
+ {
+  "nombre": "Gary",
+  "apellido": "Rodriguez",
+  "email": "gary@zero.com",
+  "contraseña": "$2a$10$0YjJrjoAEumGLfeF0lhFOe/0Ao2FlnqUrhtZ9AdoTkg82itpxPDIS",
+  "fecha": "1998-09-26",
+  "avatar": "1643600929521_img_.jpg",
+  "isAdmin": true,
+  "id": 13
+ },
+ {
+  "nombre": "Usuario",
+  "apellido": "Comun",
+  "email": "usuario@gmail.com",
+  "contraseña": "$2a$10$CEugRJli9COPzEd03xKXmeruS/4u9e5mGj86.gLwcTN2i9Ftw9vrm",
+  "fecha": "2022-01-13",
+  "avatar": " ",
+  "isAdmin": false,
+  "id": 14
+ },
+ {
+  "nombre": "Alexander",
+  "apellido": "Lamas",
+  "email": "alexandernarcisolamas@gmail.com",
+  "contraseña": "$2a$10$LFT19/GG3R8K334wXRKZqOq4Jxl8Al0NJgU7OJmyKcr6DSIMM1y3S",
+  "fecha": "2002-05-13",
+  "avatar": " ",
+  "isAdmin": false,
+  "id": 15
+ },
+ {
+  "nombre": "Gary",
+  "apellido": "Rodriguez",
+  "email": "gary@gmail.com",
+  "contraseña": "$2a$10$wWcmveowy9fJzwgaqn6NJufu4mP8gOpW4xj0lf7zT1eziBi.CqKmO",
+  "fecha": "1998-09-26",
+  "avatar": " ",
+  "isAdmin": false,
+  "id": 16
+ },
+ {
+  "nombre": "Benjamín",
+  "apellido": "Acuña",
+  "email": "benja@gmail.com",
+  "contraseña": "$2a$10$FPCO/0W10dD.yVeBhoJrWOCBCl40Mkqf25UqV8RgaY/jz9X3oS5ce",
+  "fecha": "2002-01-26",
+  "terminos": "on",
+  "avatar": "1643841677063_img_.jpg",
+  "isAdmin": false,
+  "id": 17
+ },
+ {
+  "nombre": "Benjamín",
+  "apellido": "Acuña",
+  "email": "benja@zero.com",
+  "contraseña": "$2a$10$9ZiCPLOMY5nU9DapOXjXweCYA3Ef1vLOTZdodRFga6jpj.6Zzlj6i",
+  "fecha": "2002-01-26",
+  "terminos": "on",
+  "avatar": "1643841834049_img_.jpg",
+  "isAdmin": true,
+  "id": 18
+ },
+ {
+  "nombre": "gato",
+  "apellido": "gato",
+  "email": "gato@gmail.com",
+  "contraseña": "$2a$10$CXvPFE.fnWSDYpFW/4RyGOoswZYHz.iNqE1lMgyuKFVmHYkIIKCfu",
+  "fecha": "2022-02-09",
+  "avatar": "1644672716722_img_.jpg",
+  "isAdmin": false,
+  "id": 19
+ },
+ {
+  "nombre": "Leandro",
+  "apellido": "Marino",
+  "email": "leandro@zero.com",
+  "contraseña": "$2a$10$Vou4mZNUBHaWglGM.ZuEHuulZN7qIOBsqcBh1UIpxWUakjuu7xf9C",
+  "fecha": "2022-02-10",
+  "avatar": "1645465307222_img_.jpg",
+  "isAdmin": true,
+  "id": 20
+ },
+ {
+  "nombre": "Adela",
+  "apellido": "Cervantes Ortiz",
+  "email": "adela@zero.com",
+  "contraseña": "$2a$10$Axw4vD5sHupP4i2nBzc6wOMCTmSnWLLwdOG1rjAOLVtLgq.4nGkNi",
+  "fecha": "2022-02-09",
+  "avatar": "1646101428504_img_.jpg",
+  "isAdmin": true,
+  "id": 21
+ }
+]

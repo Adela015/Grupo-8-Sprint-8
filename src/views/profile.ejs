@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylesProfile.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title> ZERO | Perfil </title>
+</head>
+
+<body>
+
+<!---------------------------NAV BAR----------------------------------->
+
+    <%- include('./partials/header')%>
+
+<!-----------------------------USUARIO------------------------------->
+
+<h1 class="usuario">Te damos la bienvenida <br><span><%=userLogged.firstname %></span> </h1>
+
+<!-------------------------------POLAROID--------------------------------->
+    <figure>
+        <img src="/images/avatars/<%=userLogged.user_image%>">
+        <figcaption><%=userLogged.firstname %> </figcaption>
+    </figure>
+
+<!-------------------------------EDITAR------------------------------------>
+
+<div class="buttonContainer">
+    <a class="editButton" href="/profileEdit/<%= userLogged.id %> ">Editar Perfil</a>
+</div>
+
+<!-------------------------------FOOTER---------------------------------->
+
+    <%- include ('./partials/footer') %> 
+
+    </body>
+    </html>

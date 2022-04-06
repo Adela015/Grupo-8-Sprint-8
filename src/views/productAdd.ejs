@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylesIndex.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/StylesAddproduct.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/003cc75b52.js" crossorigin="anonymous"></script>
+    
+    
+    <title>ZERO | Agregar Productos</title>
+</head>
+<body>
+    
+    <!------------------------------HEADER-------------------------------->
+    <%- include('./partials/header')%> 
+
+
+    <h1 class="titulo">Agregar Productos</h1>
+
+
+    
+
+    <!--------------------------------FORM---------------------------------->
+
+    <div class='errores-front'>
+        <ul>
+
+        </ul>
+    </div>
+
+
+    <div class="contenedor-form">        
+        <form class="product-form" action="/products/productAdd" method="POST" enctype="multipart/form-data">
+
+<!----------------------NOMBRE ALBUM-------------------------->
+
+            <div class="controlador-form">
+                <label for="name">Nombre del Álbum</label>
+                <input class="input-style" type="text" name="name" id="name" >
+            </div>
+            
+            <div class="error-front" id="error-nombre">
+                <ul>
+
+                </ul>
+            </div>
+
+<!----------------------NOMBRE ARTISTA-------------------------->
+
+            <div class="controlador-form">
+                <label for="artist">Nombre del Artista</label>
+                <input class="input-style" type="text" name="artist" id="artist" >
+            </div>
+
+            <div class="error-front" id="error-artista">
+                <ul>
+                    
+                </ul>
+            </div>
+
+<!----------------------GENERO ALBUM-------------------------->
+
+            <div class="controlador-form">
+                <label for="genre">Género</label>
+                <select class="input-style-category" name="genre" id="genre" > 
+                    <% genres.forEach(genre => { %>
+                        <option value="<%=genre.id%>"><%=genre.name%></option>
+                    <% }) %>
+                </select>
+            </div>
+
+<!----------------------DESCRIPCION-------------------------->
+
+            <div class="controlador-form">
+                <label for="description">Descripción del Producto</label>
+                <textarea class="text-area" name="description" id="description" cols="30" rows="10" ></textarea>
+            </div>
+            
+            <div class="error-front" id="error-descripcion">
+                <ul>
+                    
+                </ul>
+            </div>
+<!----------------------FORMATO PRODUCTO-------------------------->
+
+            <div class="controlador-form">
+                <label for="category">Formato</label>
+                <select class="input-style-category" name="format" id="format" > 
+                    <% formats.forEach( format => { %>
+                        <option value="<%=format.id%>"><%=format.name%></option>
+                    <% }) %>
+                </select>
+            </div>
+
+<!----------------------PRECIO-------------------------->
+
+            <div class="controlador-form">
+                <label for="price">Precio</label>
+                <input class="input-style" type="number" name="price" id="price" >
+            </div>
+
+            <div class="error-front" id="error-precio">
+                <ul>
+                    
+                </ul>
+            </div>
+
+<!----------------------AGREGAR IMAGEN-------------------------->
+
+            <div class="controlador-form-image">
+                <label class="input-image-boton" for="image">Agregar Imágen</label>
+                <input class="input-image" type="file" name="image" id="image" >
+            </div>   
+
+            <div class="error-front" id="error-imagen">
+    
+            </div>
+            
+
+<!----------------------BOTON SUBMIT-------------------------->
+
+            <div class="controlador-form">
+                <button class="button-submit-product" type="submit" id="buttonSubmit">¡Agregar Producto!</button>
+            </div>
+        </form>
+    </div>
+
+    
+
+<!------------------------------FOOTER--------------------------------->
+
+    <%- include ('./partials/footer') %>
+
+    
+    <script src="/js/validateProduct.js"></script>
+</body>
+
+
+</html>

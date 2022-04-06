@@ -41,6 +41,7 @@ const userController = {
     userDetail: async (req,res) =>{
         try{
             let user = await db.Users.findByPk(req.params.id)
+            
             let response = {
                 meta: {
                     status : 200,

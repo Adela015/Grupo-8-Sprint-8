@@ -4,23 +4,36 @@ let db = require("../../database/models");
 const  productController  = {
     productList : async (req,res) => {
         try{
-
+            let arrayCantidadDeProductosPorGenero = []
             let productos = await db.Products.findAll({
                 include:[{association:'Images'},{association:'Genres'},{association:'Format'}],
             })
             
-            let gen = await db.Genres.findAll() 
+            let usuarios = await db.Users.findAll()
+            let countUsuarios = usuarios.length
+
+            let gen = await db.Genres.findAll({include:[{association:'Products'}]}) 
             let countOfGenres = gen.length;
 
             let format = await db.Format.findAll()
             let countOfFormat = format.length
             
+            for(const genero of gen){
+                let objetoGeneroConCantidad = {
+                    nombre: genero.name,
+                    lengthDeProductos: genero.Products.length
+                }
+                arrayCantidadDeProductosPorGenero.push(objetoGeneroConCantidad)
+            }
+
             let response = {
                 meta: {
                     status : 200,
                     count: productos.length,
                     countOfGenres,
                     countOfFormat,
+                    countProductByGenre: arrayCantidadDeProductosPorGenero,
+                    countUsuariosTotal: countUsuarios, 
                     url: '/api/products'
                 },
                 data: {
@@ -47,7 +60,7 @@ const  productController  = {
         }
         catch(error){
             res.send({ err: 'Not found' });
-            log(error)
+            console.log(error)
         }
     },
 
